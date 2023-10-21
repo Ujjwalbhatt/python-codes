@@ -9,6 +9,7 @@ while n>0:
     t=n%10
     sum=sum+t**k
     n=n//10
+    print(n)
 if (temp==sum):
     print("Number is armstrong!")
 else:
